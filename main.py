@@ -33,6 +33,9 @@ on Judge win rate before earlier receipt does.
 import os
 
 TEXT = (
+    # ASCII only: every character is one byte, so the 86-character
+    # line is also 86 bytes — a smaller text wins an exact tie on
+    # Judge win rate before earlier receipt does.
     "Shipped Friday, broke Saturday, fixed Sunday, and Monday "
     "asked for the roadmap anyway."
 )
